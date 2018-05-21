@@ -1,0 +1,45 @@
+/*     css for all table        */
+
+.blueHdr {
+  background: rgb(35, 128, 214);
+  color: white;
+}
+.skyBlueHdr {
+  background: rgb(182, 242, 255);
+  color: rgb(98, 179, 222);
+}
+.darkGreyHdr {
+  background: rgb(94, 94, 95);
+  color: white;
+}
+.darkLgterGreyHdr {
+  background: rgb(141, 141, 142);
+  color: white;
+}
+.lgtGreyHdr {
+  background: rgb(185, 185, 185;
+  color: white;
+}
+table thead {
+  line-height: 12px;
+}
+table th {
+  line-height: 12px;
+  font-size: 13px;
+  border-bottom: none;
+}
+table td {
+  font-size: 12px;
+  vertical-align: middle;
+  outline: none;
+}
+table tbody td {
+  padding: 5px 6px 4px 6p;
+  color: rgba(0, 0, 0, 0.80);
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+  /* background: white; */
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}

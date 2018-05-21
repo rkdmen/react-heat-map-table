@@ -3,3 +3,30 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+/* Global Style  */
+._rel {
+  position: relative;
+}
+._abs {
+  position: absolute;
+}
+._flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+._il_b {
+  display: inline-block;
+}
+._ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+._hand:hover {
+  cursor: pointer;
+}
